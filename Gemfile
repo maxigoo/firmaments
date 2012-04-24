@@ -13,6 +13,10 @@ group :production do
 end
 
 
+group :test, :development do
+  gem "rspec-rails", "~> 2.6"
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
